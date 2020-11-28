@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './sideBar.css'
-import Termin from '../termin/termin.js'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class SideBar extends Component {
