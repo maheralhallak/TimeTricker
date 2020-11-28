@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.side-bar{
+    height: 100vh;
+    width: 30em;
+    
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,0.7917542016806722) 0%, rgba(51,21,27,0.8533788515406162) 100%);
+}
+.side-bar a{
+    padding: 15px 8px 6px 16px;
+    text-decoration: none;
+    font-weight: 300;
+    color: white;
+    display: block;
+    border: none;
+    text-align: start;
+    font-size: 18px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+
+}
+.side-bar a:hover{
+    color: deepskyblue;
+    transition: all 0.5s;
+}
