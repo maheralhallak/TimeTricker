@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.config-work-plan-form,
+.time-view-container {
+  margin: 5% auto;
+  padding: 1.5rem;
+  max-width: 800px;
+  min-width: 400px;
+  width: 50%;
+  box-shadow: 0 0 3px #cccccc;
+}
+
+.title {
+  text-align: center;
+  color: #0278ae;
+  margin-top: 0;
+  margin-bottom: 3rem;
+}
+
+.field {
+  margin: 1rem auto;
+  width: 100%;
+}
+
+.field.invalid input {
+  border-color: #ec524b;
+}
+
+.field label {
+  display: block;
+  color: #000;
+}
+
+.field input {
+  min-width: 50%;
+  margin: 0.4rem auto;
+  padding: 0.3rem;
+  border: 1px solid #cccccc;
+}
+
+.invalid {
+  color: #ec524b;
+}
+
+.day-checkbox {
+  width: 50%;
+  display: inline-flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.5rem 0.8rem;
+  color: #fff;
+  background-color: #0278ae;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  display: block;
+  margin-left: auto;
+}
+
+button.end {
+  display: inline-flex;
+  background-color: #ec524b;
+}
+
+button.breack {
+  margin-left: 0.8rem;
+  display: inline-flex;
+  background-color: #f2d974;
+}
+
+.start-at {
+  text-align: center;
+}
